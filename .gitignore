@@ -3,3 +3,4 @@ coverage/
 html/
 tmp/
 multimap-*.gem
+/.DS_Store

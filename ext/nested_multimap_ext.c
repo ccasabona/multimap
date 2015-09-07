@@ -1,7 +1,7 @@
-#include "ruby.h"
-#ifndef RHASH_IFNONE
-#define HASH_IFNONE (RHASH(h)->ifnone)
-#endif
+include "ruby.h"
+ifndef RHASH_IFNONE
+  define HASH_IFNONE (RHASH(h)->ifnone)
+endif
 
 VALUE cNestedMultimap;
 
